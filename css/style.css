@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+h2 {
+    font-size: 40px;
+    color: rgb(197, 194, 194);
+    text-align: center;
+    margin-top: 50px;
+}
+
+h4 {
+    text-transform: initial;
+}
+
+hr {
+    width: 300px;
+}
+
+.panel-default {
+    border: 1px solid rgb(170, 168, 168);
+    background-color: rgb(226, 226, 226);
+    text-align: center;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+
+a {
+    color: rgb(230, 150, 3);
+    font-size: 15px;
+}
+
+a:hover {
+    color: gray;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#collapse1, #collapse2, #collapse3 {
+    background-color: white;
+    padding: 10px 20px 10px 20px;
+    border-top: 1px solid rgb(170, 168, 168);
+}
