@@ -13,43 +13,55 @@
 <div class="container">
     <h2>FAQ</h2>
     <hr>
-    <div class="panel-group" id="accordion">
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Kim jest Front End Developer?</a>
+    <div class="accordion" id="accordionExample">
+      <div class="card">
+          <div class="card-header" id="headingOne">
+          <h4 class="mb-0">
+            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Kim jest Front End Developer?
+            </button>
           </h4>
         </div>
-        <div id="collapse1" class="panel-collapse collapse in">
-          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+          <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam iste repellendus eveniet suscipit mollitia quam, voluptatem nam ipsam odit obcaecati aperiam impedit eum pariatur. Quaerat inventore quas officia vitae sed.</div>
         </div>
       </div>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Od czego zaczyna się nauka?</a>
+
+      <div class="card">
+        <div class="card-header" id="headingTwo">
+          <h4 class="mb-0">
+            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Od czego zaczyna się nauka?
+            </button>
           </h4>
         </div>
-        <div id="collapse2" class="panel-collapse collapse">
-          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-          sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto explicabo fugiat magnam aperiam laudantium non adipisci. Earum dolorum, odio dolor officiis neque recusandae provident ea sed expedita, obcaecati nemo. Corrupti? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur unde recusandae delectus animi repellat sequi officia architecto, suscipit iusto ducimus ea, excepturi quaerat modi. Quisquam accusantium voluptatum quidem odio itaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magnam fugit eius debitis iure adipisci nobis impedit, amet cumque fugiat reiciendis ea nesciunt reprehenderit sunt, fuga, quis obcaecati qui excepturi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam tempora quaerat repellat praesentium cum dolor molestias libero, optio recusandae blanditiis soluta earum quam reiciendis repellendus dolorum accusamus sequi perferendis ipsam.</div>
+
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+          <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto explicabo fugiat magnam aperiam laudantium non adipisci. Earum dolorum, odio dolor officiis neque recusandae provident ea sed expedita, obcaecati nemo. Corrupti? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur unde recusandae delectus animi repellat sequi officia architecto, suscipit iusto ducimus ea, excepturi quaerat modi. Quisquam accusantium voluptatum quidem odio itaque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos magnam fugit eius debitis iure adipisci nobis impedit, amet cumque fugiat reiciendis ea nesciunt reprehenderit sunt, fuga, quis obcaecati qui excepturi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam tempora quaerat repellat praesentium cum dolor molestias libero, optio recusandae blanditiis soluta earum quam reiciendis repellendus dolorum accusamus sequi perferendis ipsam.</div>
         </div>
       </div>
-      <div class="panel panel-default">
-        <div class="panel-heading">
-          <h4 class="panel-title">
-            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Znam już podstawy, co dalej?</a>
+
+      <div class="card">
+        <div class="card-header" id="headingThree">
+          <h4 class="mb-0">
+              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Znam już podstawy, co dalej?
+              </button>
           </h4>
-        </div>
-        <div id="collapse3" class="panel-collapse collapse">
-          <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+      </div>
+
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+          <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
           sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
           quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
         </div>
       </div>
+
     </div> 
   </div>
   
